@@ -1,0 +1,120 @@
+.div-top div {
+    width: 100%;
+    padding: 5px;
+    text-align: end;
+    background-color: rgb(231, 231, 231);
+}
+
+.div-top div a {
+    color: navy;
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 2;
+}
+
+header {    
+    width: 100%;
+    height: 120px;
+} 
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+header div {
+    position: absolute;    
+    top: 35px;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+header div h2 {
+    color: rgb(0, 0, 102);
+    font-family: 'Gold shine', Consolas, monaco, monospace;
+    font-size: 48px;
+}
+
+#container-main {
+    background-color: white;
+    background-position: bottom;
+    height: auto;
+    width: 100%;
+
+}
+
+#container-content {
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer h6 {
+    color: gray;
+}
+
+
+/* acervos */
+.div-sinopse {
+    height: 70px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.status-doado {
+    color: green;
+    float: right;
+}
+
+.p-solicitante {
+    color: green;
+}
+
+#checks-disponiveis {
+    margin-left: 20px;
+}
+
+
+/* RESPONSIVE ***/
+@media screen and (max-width: 768px) {  
+    header div {
+        padding-top: 3%;
+    }
+
+    header div h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {  
+    header div {
+        padding-top: 4%;
+    }
+
+    header div h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {  
+    header div {
+        padding-top: 7%;
+    }
+
+    header div h2 {
+        font-size: 32px;
+    }
+    
+}
